@@ -24,3 +24,9 @@ Features removed in this lightweight configuration:
     Brave News: Disabled the customized news feed on the new tab page.
 
     Data Tracking & Analytics: Blocked P3A telemetry, metrics reporting, safe browsing extended logs, and anonymized data collection.
+
+
+
+Video Guide 
+-
+[![Tonton Video](https://img.youtube.com/vi/mJnia3W0a1E/maxresdefault.jpg)](https://www.youtube.com/watch?v=mJnia3W0a1E)
