@@ -145,4 +145,9 @@ if (Test-Path $BraveExe) {
     $Type::SHChangeNotify(0x08000000, 0x0000, [IntPtr]::Zero, [IntPtr]::Zero)
     
     Stop-Process -Name explorer -Force
+
+    Stop-Process -Name explorer -Force
+    Remove-Item "$env:LocalAppData\IconCache.db" -Force
+    Remove-Item "$env:LocalAppData\Microsoft\Windows\Explorer\iconcache_*" -Force
+    Start-Process explorer
 }
